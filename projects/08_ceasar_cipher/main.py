@@ -13,7 +13,7 @@ def decode(message, shift_number):
     decoded_result = ""
     for letter in message: # as
         if letter in alphabet:
-            index_no = alphabet.index(letter) - shift_number # 2
+            index_no = alphabet.index(letter) - shift_number # 
             decoded_result += alphabet[index_no]
         else:
             decoded_result += letter
